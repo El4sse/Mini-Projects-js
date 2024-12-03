@@ -60,17 +60,12 @@ body {
 }
 
 .weather h1 {
-  font-size: 80px;
-  font-weight: 500;
-}
-
-.weather h2 {
   font-size: 45px;
   font-weight: 400;
   margin-top: -10px;
 }
 
-.details {
+.detailes {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,6 +86,18 @@ body {
 
 .humidity,
 .wind {
-  font-size: 28px;
+  font-size: 20px;
   margin-top: -6px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
 }
